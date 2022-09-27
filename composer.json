@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.1",
         "drupal/core-composer-scaffold": "^8",
         "drupal/core-project-message": "^8",
@@ -70,6 +71,11 @@
             "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
             ]
+        },
+        "patches": {
+            "drupal/core": {
+                "Theme config fix": "https://www.drupal.org/files/issues/2020-09-23/2898274-29.patch"
+            }
         },
         "drupal-core-project-message": {
             "include-keys": [

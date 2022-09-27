@@ -1,0 +1,15 @@
+uuid: da08e872-43e3-434b-9409-0118356ce6b4
+langcode: en
+status: true
+dependencies: {  }
+id: forum_admin
+label: 'Forum Admin'
+weight: 4
+is_admin: null
+permissions:
+  - 'administer forums'
+  - 'delete any forum content'
+  - 'delete forum revisions'
+  - 'edit any forum content'
+  - 'revert forum revisions'
+  - 'view forum revisions'

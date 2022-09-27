@@ -1,0 +1,12 @@
+features:
+  node_user_picture: true
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+logo:
+  use_default: false
+  path: 'public://Guitar Forum Logo Image - ver 2.png'
+favicon:
+  use_default: false
+  path: 'public://guitar_icon.png'
+  mimetype: image/png

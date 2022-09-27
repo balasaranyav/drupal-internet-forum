@@ -1,0 +1,14 @@
+uuid: cac137ba-4917-47c2-b5c3-a50393d4bd21
+langcode: en
+status: true
+dependencies: {  }
+id: forum_moderator
+label: 'Forum Moderator'
+weight: 3
+is_admin: null
+permissions:
+  - 'delete any forum content'
+  - 'delete forum revisions'
+  - 'edit any forum content'
+  - 'revert forum revisions'
+  - 'view forum revisions'
