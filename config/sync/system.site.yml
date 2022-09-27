@@ -1,11 +1,11 @@
 uuid: cc1eb579-5161-49b2-ae5b-7180d5a443ae
-name: 'Drush Site-Install'
+name: 'A Global community of Guitar Lovers'
 mail: admin@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /forum
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
